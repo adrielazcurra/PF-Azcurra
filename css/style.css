@@ -62,7 +62,7 @@ a {
 
 header {
     width: 90%;
-    height: 7vh;
+    height: 8vh;
     margin: auto;
     font-size: 17px;
     display: flex;
@@ -84,7 +84,7 @@ ul li {
 
 .hero {
     width: 100%;
-    height: 93vh;
+    height: 92vh;
     background-color: #b95523;
     background-image: linear-gradient(
         0deg,
@@ -140,7 +140,8 @@ ul li {
 }
 
 .productos ul li a img:hover {
-    padding: 1px;
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
 }
 
 
