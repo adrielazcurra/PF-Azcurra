@@ -150,6 +150,124 @@ ul li {
     height: 200px;
 }
 
+/**PRODUCTOS HTML**/
+
+
+.caja-grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.caja-grid a {
+    color: white;
+}
+
+.caja-grid a:hover {
+    text-decoration: none;
+    padding: 0;
+    color: white;
+    transform: scale(1.5);
+    transition: 0.3s ease-in;
+}
+
+.caja-1 {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)),url(../images/romance.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.caja-2 {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)),url(../images/educativos.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.caja-3 {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)),url(../images/ficcion.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.caja-4 {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)),url(../images/recientes.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+/**CATEGORIAS**/
+
+.caja-grid-categoria {
+    height: 1300px;
+    background-color: #b95523   ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.caja-grid-categoria a:hover {
+    text-decoration: none;
+    padding: 0;
+}
+
+.caja-grid-categoria div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.caja-grid-categoria img {
+    height: 250px;
+    width: 200px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.91);
+-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.91);
+-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.91);
+}
+
+.caja-grid-categoria img:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+}
+
 .final {
     width: 100%;
     height: 100px;
@@ -227,8 +345,8 @@ aside {
 }
 
 footer {
-    background-color: rgba(112, 110, 110, 0.767);
-    height: 200px;
+    background-color: rgb(112, 110, 110);
+    height: 300px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -267,11 +385,31 @@ footer img {
 
 }
 
+@media screen and (max-width: 1050px) {
+
+    .caja-grid-categoria {
+        height: 1600px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+}
+
+
+
 @media screen and (max-width: 1010px) {
     .productos ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+}
+
+@media screen and (max-width: 860px) {
+
+    .caja-grid-categoria {
+        height: 2300px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
 }
 
 @media screen and (max-width: 850px) {
@@ -389,6 +527,24 @@ footer img {
     }
 }
 
+@media screen and (max-width: 655px) {
+
+    .caja-grid-categoria {
+        height: 3300px;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    .caja-grid {
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+
 @media screen and (max-width: 560px) {
     .publicidad section {
         margin: auto;
@@ -416,5 +572,90 @@ footer img {
     .hero h2 {
         text-align: center;
     }
+
+}
+
+
+@media screen and (max-width: 435px) {
+
+    .caja-grid-categoria {
+        height: 5800px;
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+
+@media screen and (max-width: 415px) {
+
+    aside {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .publicidad section input {
+        width: 300px;
+    }
+
+    .publicidad section .descuentos a img {
+        height: 100px;
+        width: 120px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    
+    header {
+        text-align: center;
+        width: 90%;
+        height: 250px;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 355px) {
+    .productos ul {
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+@media screen and (max-width: 315px) {
+
+    .publicidad {
+        height: 150px;
+    }
+
+    .publicidad section input {
+        width: 200px;
+    }
+
+    .publicidad section h1 {
+        text-align: center;
+    }
+
+    .publicidad section .enviar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .publicidad section .descuentos a img {
+        height: 0px;
+        width: 0px;
+        padding: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 305px) {
 
 }
