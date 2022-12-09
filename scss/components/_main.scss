@@ -1,0 +1,322 @@
+.hero {
+    width: 100%;
+    height: 92vh;
+    background-color: #b95523;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),url(../images/biblioteca.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+
+
+    
+    a {  
+        color: white;
+        background-color: #b95523;
+        padding: 10px;
+        border-radius: 10%;
+        margin-top: 10px;
+        text-decoration: none;
+        &:hover {
+            background-color: #9c471c;
+        }
+    }
+    
+}
+
+/**PRODUCTOS*/
+
+.productos-titulo h2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+
+.productos {
+    padding: auto;
+    
+    ul {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    
+        li {
+        
+            img {
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.91);
+        -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.91);
+        -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.91);
+        width: 150px;
+        height: 200px;
+        &:hover {
+            transform: scale(1.1);
+            transition: 0.3s ease-in;
+        }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+    
+
+.caja-grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    a {
+        color: white;
+        &:hover {
+            text-decoration: none;
+        padding: 0;
+        color: white;
+        transform: scale(1.5);
+        transition: 0.3s ease-in
+        }
+    }
+
+
+    .caja-1 {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)),url(../images/romance.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .caja-2 {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)),url(../images/educativos.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .caja-3 {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)),url(../images/ficcion.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .caja-4 {
+        font-size: 20px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)),url(../images/recientes.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+}
+
+.caja-grid-categoria {
+    height: 1300px;
+    background-color: #e4aa53 ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    &:hover {
+        text-decoration: none;
+        padding: 0;
+    }
+    
+    
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 10px;
+        
+        img {
+            height: 250px;
+            width: 200px;
+            box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.91);
+            -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.91);
+            -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.91);
+            &:hover {
+                transform: scale(1.1);
+        transition: 0.3s ease-in;
+            }
+        }
+        
+    }
+
+}
+    .final {
+        width: 100%;
+        height: 100px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 30px ;
+    
+    p {
+
+        a {
+            color: white;
+            background-color: #b95523;
+            padding: 10px;
+            border-radius: 10%;
+            text-decoration: none;
+            &:hover {
+                background-color: #9c471c;
+            }
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+.contacto {
+    width: 500px;
+    background-color: #e6a84c8c;
+    padding: 50px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    box-shadow: 7px 13px 37px #000;
+
+
+        h4 {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 100%;
+            background-color: rgb(250, 217, 168);
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            border: 1px;
+            font-family: 'calibri';
+            font-size: 18px;
+
+        }
+
+        p {
+            height: 40px;
+            font-size: 16px;
+        }
+
+        .button {
+            width: 100%;
+            border: none;
+            padding: 12px;
+            margin: 16px 0;
+            font-size: 18px;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-2 {
+    width: 100%;
+    height: 92vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),url(../../images/pexels-polina-zimmerman-3747555.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+    h2 {
+        border: solid rgba(255, 255, 255, 0.692);
+        padding: 10px 60px 10px 60px;
+        border-radius: 4px;
+    }
+}
+
+.contenido-2 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h3 {
+        margin-bottom: 100px;
+    }
+}

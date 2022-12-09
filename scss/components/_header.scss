@@ -1,0 +1,59 @@
+.navbar.navbar-expand-lg.bg-light {
+    padding: 0;
+
+    .container-fluid {
+        padding: 4px;
+        background-color: blanchedalmond;
+    }
+
+    .btn.btn-outline-success {
+    color: black;
+    border: solid  #e4964d 1.5px;
+
+}
+
+}
+
+nav {
+    background-color: blanchedalmond;
+    display: grid;
+    grid-column: 1/5;
+}
+
+
+
+.btn.btn-outline-success:hover {
+    color: white;
+    background-color: #e4964d;
+}
+
+.container-fluid a:hover{
+    text-decoration: none;
+    padding: 0px;
+
+}
+
+header {
+    height: 8vh;
+    background-color: blanchedalmond;
+
+    ul {
+        padding: 10px;
+
+        li {
+            margin-top: 5px;
+            margin-bottom: 5px;
+
+
+            a { 
+                color: black;
+            text-decoration: none;
+            padding: 25px;
+            &:hover {
+                background-color: rgb(248, 220, 178);
+            }
+            }
+        
+        }
+    }
+}

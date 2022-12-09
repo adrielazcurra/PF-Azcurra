@@ -1,0 +1,62 @@
+.publicidad {
+    background-color: rgb(212, 141, 60);
+    display: flex;
+    
+    section {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 30px;
+    background-color: rgb(212, 141, 60);
+
+        div {
+        display: flex;
+        justify-content: center;
+
+            a {
+            color: white;
+            background-color: #b95523;
+            border-radius: 5%;
+            margin-top: 5px;
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            &:hover {
+                padding: 0;
+                text-decoration: none;
+            }
+            }
+
+        }
+    }
+    
+    h2 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    input {
+        padding: 5px;
+        border: solid #e4964d;
+    }
+    
+    
+    
+    .descuentos {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 50px;
+
+        a{
+            img {
+                height: 150px;
+                width: 250px;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+footer {
+    background-color: rgb(185, 176, 126);
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .redes {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    
+    p {
+        display: flex;
+        justify-content: center;
+        &:hover {
+            color: white;
+        }
+    }
+    
+    img {
+        width: 20px;
+        height: 25px;
+    }
+}

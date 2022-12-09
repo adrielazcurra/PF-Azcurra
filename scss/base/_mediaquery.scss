@@ -1,0 +1,331 @@
+@media screen and (max-width: 1175px) {
+    .productos ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+
+    .caja-grid-categoria {
+        height: 1600px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1010px) {
+    .productos ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .navbar.navbar-expand-lg.bg-light {
+        padding: 0;
+    
+        .container-fluid {
+            padding: 5px;
+            background-color: blanchedalmond;
+
+            div {
+                ul {
+                    li {
+                        a {
+                            &:hover {
+                                background-color: rgb(248, 220, 178);
+                                padding: 15px;
+                                transform: scale(1);
+                                animation-play-state: paused;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    
+        .btn.btn-outline-success {
+        color: black;
+        border: solid  #e4964d 1.5px;
+    
+    }
+    
+    }
+    
+    nav {
+        background-color: blanchedalmond;
+        display: grid;
+        grid-column: 1/5;
+    }
+    
+    
+    
+    .btn.btn-outline-success:hover {
+        color: white;
+        background-color: #e4964d;
+    }
+    
+    .container-fluid a:hover{
+        text-decoration: none;
+        padding: 0;
+    
+    }
+    
+}
+
+
+@media screen and (max-width: 860px) {
+
+    .caja-grid-categoria {
+        height: 2300px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
+
+@media screen and (max-width: 860px) {
+    aside {
+        width: 100%;
+        display: grid;
+        grid-column: 1/5;
+    }
+
+    .contenido {
+        display: grid;
+        grid-column: 1/5;
+    }
+
+    .productos {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .publicidad section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        height: 400px;
+}
+
+    .publicidad section h1 {
+        display: grid;
+    }
+
+    .publicidad section input {
+        display: grid;
+        grid-column: 1/5;
+    }
+
+    .publicidad section .enviar {
+        display: grid;
+        grid-column: 1/5;
+    }
+
+    .publicidad section .enviar a {
+        color: black;
+        background-color:  rgb(212, 141, 60);
+    }
+
+    .publicidad section .descuentos img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .publicidad section .descuentos {
+        width: 700px;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 765px) {
+    .publicidad section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+
+    .publicidad section input {
+        width: 400px;
+    }
+
+    .publicidad section .descuentos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .publicidad section {
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 400px;
+    }
+}
+    
+@media screen and (max-width: 730px){
+    .publicidad section {
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+    }
+
+    .publicidad section .descuentos {
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        height: 10vh;
+        width: 90%;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+
+    .caja-grid-categoria {
+        height: 3300px;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    .caja-grid {
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+
+@media screen and (max-width: 560px) {
+    .publicidad section {
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+    }
+
+    .publicidad section .descuentos {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+    }
+
+    .productos ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .hero h2 {
+        text-align: center;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 435px) {
+
+    .caja-grid-categoria {
+        height: 5800px;
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+
+@media screen and (max-width: 415px) {
+
+    aside {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .publicidad section input {
+        width: 300px;
+    }
+
+    .publicidad section .descuentos a img {
+        height: 100px;
+        width: 120px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    
+    header {
+        text-align: center;
+        width: 90%;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .productos ul {
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+@media screen and (max-width: 315px) {
+
+    .publicidad {
+        height: 150px;
+    }
+
+    .publicidad section input {
+        width: 200px;
+    }
+
+    .publicidad section h1 {
+        text-align: center;
+    }
+
+    .publicidad section .enviar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .publicidad section .descuentos a img {
+        height: 0px;
+        width: 0px;
+        padding: 0;
+    }
+
+}
+
