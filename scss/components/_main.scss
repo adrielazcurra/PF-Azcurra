@@ -264,6 +264,9 @@
             padding: 12px;
             margin: 16px 0;
             font-size: 18px;
+            &:hover {
+                background-color: #e4aa53;
+            }
         }
 }
 
@@ -317,6 +320,19 @@
     text-align: center;
 
     h3 {
+        margin-bottom: 100px;
+    }
+}
+
+.contenido-2 {
+    padding: 50px;
+    font-size: 1.5rem;
+
+    h3 {
+     padding-top: 100px;
+    }
+
+    p {
         margin-bottom: 100px;
     }
 }

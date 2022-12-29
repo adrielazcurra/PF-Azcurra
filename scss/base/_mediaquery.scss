@@ -246,6 +246,22 @@
         text-align: center;
     }
 
+.contenido-2 {
+    margin-top: 100px;
+}
+
+}
+
+@media screen and (max-width: 530px) {
+    
+    .contacto {
+        width: 75%;
+
+
+        h4 {
+            text-align: center;
+        }
+    }
 }
 
 
@@ -278,7 +294,26 @@
         width: 120px;
         padding: 0;
     }
+
+
+
+    .contacto {
+        p {
+            margin-bottom: 30px;
+        }
+    }
 }
+
+
+@media screen and (max-width: 360px) {
+    .contacto {
+        p {
+            margin-bottom: 50px;
+        }
+    }
+}
+
+
 
 @media screen and (max-width: 340px) {
     
@@ -291,6 +326,11 @@
         display: flex;
         flex-direction: column;
     }
+
+.contenido-2 {
+    margin-top: 300px;
+    padding: 15px;
+}
 
 }
 
@@ -327,5 +367,14 @@
         padding: 0;
     }
 
+}
+
+
+@media screen and (max-width:295px) {
+    .contacto {
+        .p2 {
+            margin-top: 100px;
+        }
+    }
 }
 
